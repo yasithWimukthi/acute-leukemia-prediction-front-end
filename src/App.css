@@ -39,7 +39,7 @@
 
 @media (min-width: 1200px) { 
     .m-header{
-        transform: translateY(-30%);
+        transform: translateY(-20%);
         background-color: transparent;
     }
     .pb-10{

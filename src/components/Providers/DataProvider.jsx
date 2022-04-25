@@ -8,8 +8,9 @@ export const useData = () => {
 };
 
 const DataProvider = ({ children }) => {
-  const [value, setValue] = useState();
+  const [value, setValue] = useState({isValid:false,payload:{},isResultShow:false});
 
+  console.log(value)
   return (
     <DataContext.Provider value={value}>
       <SetDataContext.Provider value={setValue}>
